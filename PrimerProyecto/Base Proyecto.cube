@@ -1,0 +1,330 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a70eea8e-3b68-45a6-a6d8-92a6f5885c04" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Base Proyecto</ID>
+  <Name>Base Proyecto</Name>
+  <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7285" scrolltop="-21" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="91" x="24130" y="11282" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FactEstacionamiento" left="20" top="0" logicalid="6" controlid="1" masterid="0" hint1="0" hint2="0" width="5376" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00000015000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_FactEstacionamiento" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimParqueo" left="7796" top="806" logicalid="7" controlid="2" masterid="0" hint1="0" hint2="0" width="3641" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000390e00003b0d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimParqueo" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimVehiculo" left="750" top="7400" logicalid="8" controlid="3" masterid="0" hint1="0" hint2="0" width="3916" height="4466" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00004c0f000072110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimVehiculo" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2309" top="4700" logicalid="9" controlid="4" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FactEstacionamiento-DimVehiculo]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="6" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2708" y="7400" />
+              <point x="2708" y="5000" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5096" top="2100" logicalid="10" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FactEstacionamiento-DimParqueo]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="18" destattachpoint="27" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7796" y="2499" />
+              <point x="6596" y="2499" />
+              <point x="6596" y="2500" />
+              <point x="5396" y="2500" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-7285</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-21</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>91</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="0b395ce1-02cf-4e7d-b7e7-617f6a1ed4b3">
+      <ID>Dim Vehiculo</ID>
+      <Name>Dim Vehiculo</Name>
+      <DimensionID>Dim Vehiculo</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="c04ad390-a0bb-4a5c-841d-d78cf6199c2a">
+          <AttributeID>ID Vehiculo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c5dc4e37-03d7-4667-8707-855a4993ce8b">
+          <AttributeID>Pais Procedencia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="75473f81-ac09-44fc-aabe-c13ce3058272">
+          <AttributeID>Tipo Vehiculo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d7e22cb9-7915-4ee5-ae2d-76e54cefb556">
+          <AttributeID>Nombre Fabricante</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8d921fdd-ad1a-454e-bccf-055d883f7ac9">
+          <AttributeID>Abreviatura Pais</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c586db78-3e3a-4844-b0f9-d3204c979c59">
+          <AttributeID>Region Del Continente</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="825a9902-df7a-41c6-97c7-f3b46b483f2c">
+          <AttributeID>Continente</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="979a1929-4646-4352-b928-f3f1d564e410">
+          <AttributeID>Ano</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="63b1f3dd-0a6c-43ad-9a88-6781d6940997">
+          <AttributeID>Estrato Fabricacion</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="f9fa2e23-cbfe-4007-b6e0-31958d8e021a">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="573b1ea3-42fe-46aa-a7eb-8f2f58aabb9a">
+      <ID>Dim Parqueo</ID>
+      <Name>Dim Parqueo</Name>
+      <DimensionID>Dim Parqueo</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="cbcbd4cc-e3df-46c2-885f-318f40be6845">
+          <AttributeID>ID Parqueo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fc0e235e-6801-4390-b631-2c8d2f4470d7">
+          <AttributeID>Consecutivo Distrito</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5b6243c1-c0c2-4193-b155-a69fe51e0bac">
+          <AttributeID>Nombre Distrito</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="db4de5ae-ff37-4234-a517-36b1010029cd">
+          <AttributeID>ID Canton</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5943caa5-6a37-4d72-b0a8-b86481e996e7">
+          <AttributeID>Nombre Canton</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a918fd91-def8-47e0-bd2d-7d7af977d3c2">
+          <AttributeID>ID Provincia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1a5b09e5-0d23-4c9f-8757-b15027df6b5c">
+          <AttributeID>Nombre Provincia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f50b0a3c-346c-4080-8544-6804bb74ca65">
+          <AttributeID>ID Parqueo 1</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="6d879fa9-68b4-4742-9e3f-26bb28deef51">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="00dfb501-e2f3-496d-bf82-75bdf4918f04">
+      <ID>Fact Estacionamiento</ID>
+      <Name>Fact Estacionamiento</Name>
+      <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="de94741a-4bfd-41ec-a505-4557057438c4">
+          <ID>Tarifa Base</ID>
+          <Name>Tarifa Base</Name>
+          <Source dwd:design-time-name="a0773307-7b74-4d1c-89f7-92d70483bfff">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="84e8964c-74c2-4976-98c1-80f1f25d12e8">
+              <TableID>dbo_FactEstacionamiento</TableID>
+              <ColumnID>TarifaBase</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="897ba560-8f3c-4132-b52a-7c647a798d99">
+          <ID>Ganancia</ID>
+          <Name>Ganancia</Name>
+          <Source dwd:design-time-name="c61f5539-0b84-437c-8c79-8b164e04bfd7">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8f061dd2-ba2c-41c9-9801-863742a45949">
+              <TableID>dbo_FactEstacionamiento</TableID>
+              <ColumnID>Ganancia</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="2cea4a6a-1acb-464a-9c68-0f65f3484eba">
+          <ID>Mantenimiento</ID>
+          <Name>Mantenimiento</Name>
+          <Source dwd:design-time-name="0bde8266-303e-43ef-b625-c65b7a53f547">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ceecc516-4898-4f2b-90f5-86a8a8feaf2d">
+              <TableID>dbo_FactEstacionamiento</TableID>
+              <ColumnID>Mantenimiento</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e062092f-a6a5-41b4-a3d5-ae3096875d62">
+          <ID>Imp Ventas</ID>
+          <Name>Imp Ventas</Name>
+          <Source dwd:design-time-name="231058ea-8604-4a50-9630-cbf65f457dfe">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7c601da0-a704-4329-9c34-922415e8b519">
+              <TableID>dbo_FactEstacionamiento</TableID>
+              <ColumnID>ImpVentas</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4376f44a-0c34-4da2-80cc-0173cbd9692d">
+          <ID>Total A Cobrar</ID>
+          <Name>Total A Cobrar</Name>
+          <Source dwd:design-time-name="abd79f13-4d41-429e-b75c-cf5ee42bbb36">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8c176705-ea59-4654-9124-15e75ed393e5">
+              <TableID>dbo_FactEstacionamiento</TableID>
+              <ColumnID>TotalACobrar</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a6e21b83-1b0d-4503-85b8-17d32a1d90b1">
+          <ID>Indicador Minutos</ID>
+          <Name>Indicador Minutos</Name>
+          <Source dwd:design-time-name="9826fd31-fb57-459a-9d73-77f31a90e86f">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d1960eee-2a24-4df5-8a72-35793af0e6fb">
+              <TableID>dbo_FactEstacionamiento</TableID>
+              <ColumnID>IndicadorMinutos</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d5bc35d3-e724-44ea-b024-d71142d4db3a">
+          <CubeDimensionID>Dim Vehiculo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="aa6fd0c2-112a-4352-be9a-38acc52d283a">
+              <AttributeID>ID Vehiculo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="59066a6f-4011-40e6-a94b-b47e524cd94e">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ef8b52eb-c4a0-4600-ba25-8157f06fba9f">
+                    <TableID>dbo_FactEstacionamiento</TableID>
+                    <ColumnID>IDVehiculo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9398acd9-80e3-420c-9305-200f414052ac">
+          <CubeDimensionID>Dim Parqueo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="204f9c69-7e5d-455b-88d3-9accfd96ffda">
+              <AttributeID>ID Parqueo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b6209c61-cbfd-4ab4-ba33-9d159ccd973f">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2371450d-d9e4-4e77-8fd4-2286460540e0">
+                    <TableID>dbo_FactEstacionamiento</TableID>
+                    <ColumnID>IDParqueo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="50994b41-b477-4ca4-87be-4244fe529cc0">
+    <DataSourceViewID>Base Proyecto</DataSourceViewID>
+  </Source>
+</Cube>
