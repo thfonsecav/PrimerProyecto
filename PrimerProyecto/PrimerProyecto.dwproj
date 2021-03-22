@@ -27,6 +27,10 @@
       <Name>Dim Parqueo.dim</Name>
       <FullPath>Dim Parqueo.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>DimTime.dim</Name>
+      <FullPath>DimTime.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>

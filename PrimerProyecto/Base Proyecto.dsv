@@ -1,8 +1,8 @@
-﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f625c3b6-3e65-4ee5-8560-f58acdfc9861" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="11210a36-51e9-4108-b4aa-4a9de76c20e3" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Base Proyecto</ID>
   <Name>Base Proyecto</Name>
-  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -18,7 +18,6 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
-      <Value></Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
@@ -32,7 +31,7 @@
             <Name>_ALL_TABLES_</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="7" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-25" scrolltop="-3751" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="97" x="24723" y="12573" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="14" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3822" scrolltop="-3751" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="97" x="24723" y="12573" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
                   </font>
@@ -43,7 +42,7 @@
                 <layoutmanager>
                   <ddsxmlobj />
                 </layoutmanager>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimParqueo" left="17761" top="436" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3641" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimParqueo" left="12788" top="2618" logicalid="7" controlid="1" masterid="0" hint1="0" hint2="0" width="3641" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e0000390e00003b0d0000" />
                   </control>
@@ -54,7 +53,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimVehiculo" left="4973" top="-371" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3916" height="4466" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimVehiculo" left="0" top="1811" logicalid="8" controlid="2" masterid="0" hint1="0" hint2="0" width="3916" height="4466" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e00004c0f000072110000" />
                   </control>
@@ -65,7 +64,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FactEstacionamiento" left="10977" top="-2182" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="5376" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FactEstacionamiento" left="6004" top="0" logicalid="9" controlid="3" masterid="0" hint1="0" hint2="0" width="5376" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e00000015000088130000" />
                   </control>
@@ -76,7 +75,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="ProyectoEstratos" left="15512" top="5259" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3006" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="ProyectoEstratos" left="10539" top="7441" logicalid="10" controlid="4" masterid="0" hint1="0" hint2="0" width="3006" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e0000be0b00006b0a0000" />
                   </control>
@@ -87,7 +86,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="8589" top="-532" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="2688" height="1144" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="3616" top="1650" logicalid="11" controlid="5" masterid="0" hint1="0" hint2="0" width="2688" height="1144" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -101,13 +100,13 @@
                     </ddsxmlobj>
                   </layoutobject>
                   <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="15" destattachpoint="24" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="8889" y="212" />
-                    <point x="9627" y="212" />
-                    <point x="9627" y="-232" />
-                    <point x="10977" y="-232" />
+                    <point x="3916" y="2394" />
+                    <point x="4654" y="2394" />
+                    <point x="4654" y="1950" />
+                    <point x="6004" y="1950" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="16053" top="568" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="2008" height="861" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="11080" top="2750" logicalid="12" controlid="6" masterid="0" hint1="0" hint2="0" width="2008" height="861" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -121,17 +120,17 @@
                     </ddsxmlobj>
                   </layoutobject>
                   <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="14" destattachpoint="29" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="17761" y="1029" />
-                    <point x="17057" y="1029" />
-                    <point x="17057" y="868" />
-                    <point x="16353" y="868" />
+                    <point x="12788" y="3211" />
+                    <point x="12084" y="3211" />
+                    <point x="12084" y="3050" />
+                    <point x="11380" y="3050" />
                   </connector>
                 </ddscontrol>
               </dds>
 </DiagramLayout>
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
-            <DiagramViewPortLeft>-25</DiagramViewPortLeft>
+            <DiagramViewPortLeft>-3822</DiagramViewPortLeft>
             <DiagramViewPortTop>-3751</DiagramViewPortTop>
             <DiagramBoundingLeft>0</DiagramBoundingLeft>
             <DiagramBoundingTop>0</DiagramBoundingTop>
@@ -249,9 +248,9 @@
                   <xs:element name="ImpVentas" msprop:design-time-name="3c8e0388-08fd-4f29-b9d7-be2457a00d68" msprop:DbColumnName="ImpVentas" msprop:FriendlyName="ImpVentas" type="xs:decimal" minOccurs="0" />
                   <xs:element name="TotalACobrar" msprop:design-time-name="e92ae758-004a-40ec-8d1e-f2adad230b1d" msprop:DbColumnName="TotalACobrar" msprop:FriendlyName="TotalACobrar" type="xs:decimal" minOccurs="0" />
                   <xs:element name="Placa" msprop:design-time-name="68c7f846-ca78-4f55-bae5-b5860f4f0897" msprop:DbColumnName="Placa" msprop:FriendlyName="Placa" type="xs:decimal" minOccurs="0" />
-                  <xs:element name="HoraIngreso" msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="78bc717e-e006-495d-b2e5-989bbe080e04" msprop:DbColumnName="HoraIngreso" msprop:FriendlyName="HoraIngreso" type="xs:anyType" minOccurs="0" />
+                  <xs:element name="HoraIngreso" msprop:design-time-name="78bc717e-e006-495d-b2e5-989bbe080e04" msprop:DbColumnName="HoraIngreso" msprop:FriendlyName="HoraIngreso" type="xs:anyType" minOccurs="0" />
                   <xs:element name="FechaIngreso" msprop:design-time-name="5e043cf8-1d9a-4b70-82ba-256f9692b9d4" msprop:DbColumnName="FechaIngreso" msprop:FriendlyName="FechaIngreso" type="xs:dateTime" minOccurs="0" />
-                  <xs:element name="HoraSalida" msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="f0ad5997-534c-4d17-b08c-ab0300ab973d" msprop:DbColumnName="HoraSalida" msprop:FriendlyName="HoraSalida" type="xs:anyType" minOccurs="0" />
+                  <xs:element name="HoraSalida" msprop:design-time-name="f0ad5997-534c-4d17-b08c-ab0300ab973d" msprop:DbColumnName="HoraSalida" msprop:FriendlyName="HoraSalida" type="xs:anyType" minOccurs="0" />
                   <xs:element name="FechaSalida" msprop:design-time-name="4a5b889b-f444-4378-861e-7fcb00289a34" msprop:DbColumnName="FechaSalida" msprop:FriendlyName="FechaSalida" type="xs:dateTime" minOccurs="0" />
                   <xs:element name="DiaIngreso" msprop:design-time-name="6599a87c-d09a-43cc-9afd-c92355297db7" msprop:DbColumnName="DiaIngreso" msprop:FriendlyName="DiaIngreso" minOccurs="0">
                     <xs:simpleType>
@@ -338,6 +337,8 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
+                  <xs:element name="MontoRealCobrado" msdata:ReadOnly="true" msprop:design-time-name="e4b05df4-ed01-4ffb-a05d-d9d0167c7b7f" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="MontoRealCobrado" msprop:ComputedColumnExpression="CAST(ROUND(TotalACobrar/25, 2) * 25 as numeric(18,2))" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="DiferenciaDeMontos" msprop:design-time-name="83f6060f-ad45-4152-b6cd-b0c37c874bb1" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="DiferenciaDeMontos" msprop:ComputedColumnExpression="(CAST(ROUND(TotalACobrar/25, 2) * 25 as numeric(18,2)))-TotalACobrar" type="xs:decimal" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
@@ -352,8 +353,20 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="LimiteInferior" msprop:design-time-name="7fb2204b-9e49-403a-9307-f40ea768d154" msprop:DbColumnName="LimiteInferior" msprop:FriendlyName="LimiteInferior" type="xs:double" minOccurs="0" />
-                  <xs:element name="LimiteSuperior" msprop:design-time-name="e9029a67-7174-4c7d-aa75-15d3862b75fe" msprop:DbColumnName="LimiteSuperior" msprop:FriendlyName="LimiteSuperior" type="xs:double" minOccurs="0" />
+                  <xs:element name="LimiteInferior" msprop:design-time-name="7fb2204b-9e49-403a-9307-f40ea768d154" msprop:DbColumnName="LimiteInferior" msprop:FriendlyName="LimiteInferior" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="LimiteSuperior" msprop:design-time-name="e9029a67-7174-4c7d-aa75-15d3862b75fe" msprop:DbColumnName="LimiteSuperior" msprop:FriendlyName="LimiteSuperior" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                   <xs:element name="Descripcion" msprop:design-time-name="94ed4ac5-95eb-48ba-b246-132991c785bd" msprop:DbColumnName="Descripcion" msprop:FriendlyName="Descripcion" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">

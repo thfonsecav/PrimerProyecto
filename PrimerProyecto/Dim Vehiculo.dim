@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="40a90407-ccf7-4ec2-9b9d-b60b7df9649b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="076d2f02-2354-4cf8-a780-4e6c4764da73" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Dim Vehiculo</ID>
   <Name>Dim Vehiculo</Name>
   <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-647" scrolltop="-3408" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9631" y="11282" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-647" scrolltop="-3408" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8954" y="11282" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
             </font>
@@ -68,59 +68,59 @@
   </Annotations>
   <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="99e0217d-8aac-4faa-bc4f-04965d4faa91">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="1f882570-cfe0-4486-b482-6a82e2d9cd0d">
     <DataSourceViewID>Base Proyecto</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="9b97747a-d729-46f2-89ac-21d536ce9313">
+  <ErrorConfiguration dwd:design-time-name="f924c4e3-7230-4945-b623-b88c6354f00a">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="9ad29110-983f-4924-a20f-421a22f497c8">
+    <Attribute dwd:design-time-name="79b58855-b88c-4dd3-805b-03669f6f2496">
       <ID>ID Vehiculo</ID>
       <Name>ID Vehiculo</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="e9f2cb6b-ea15-4a2e-bae8-fd8e58660fe1">
+        <KeyColumn dwd:design-time-name="f1a5ccc9-5ce5-49a0-998e-edc41a42f426">
           <DataType>Double</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c75209aa-6b6d-47dc-85c3-cedf22ed8ea6">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a89ab8b7-1202-43cb-9a05-3cda905a6123">
             <TableID>dbo_DimVehiculo</TableID>
             <ColumnID>IDVehiculo</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="f038067f-379f-490a-8c90-19bf4f96c3a0">
+        <AttributeRelationship dwd:design-time-name="6932f3c1-59e0-47f7-8337-4bb86b0c7c85">
           <AttributeID>Pais Procedencia</AttributeID>
           <Name>Pais Procedencia</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="c622ae6d-aabb-4680-9821-5b71a2834ffb">
+        <AttributeRelationship dwd:design-time-name="fcb92735-72f6-4c22-af77-6082cff40953">
           <AttributeID>Tipo Vehiculo</AttributeID>
           <Name>Tipo Vehiculo</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="09390125-ac47-4cdc-908a-3af998962c4e">
+        <AttributeRelationship dwd:design-time-name="5c16704c-f08a-473a-820b-e76a7072ba2e">
           <AttributeID>Nombre Fabricante</AttributeID>
           <Name>Nombre Fabricante</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="62e54977-0d6a-49bc-88c3-0ba8dcc7a746">
+        <AttributeRelationship dwd:design-time-name="ad71b3f6-c509-4ce6-9a94-2b7184ce5da9">
           <AttributeID>Abreviatura Pais</AttributeID>
           <Name>Abreviatura Pais</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="ead4d616-c6c7-4ad7-b19f-d4d7757fb13f">
+        <AttributeRelationship dwd:design-time-name="09463c22-6d04-4e68-b39a-1b70a49ffd6f">
           <AttributeID>Region Del Continente</AttributeID>
           <Name>Region Del Continente</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="f5e40189-a988-4320-a0f3-db8f51103f0d">
+        <AttributeRelationship dwd:design-time-name="a3c353bd-23fd-497d-9ac2-dc685741aca7">
           <AttributeID>Continente</AttributeID>
           <Name>Continente</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="99862db9-91e7-4ff2-96ca-d0b4f40fb99a">
+        <AttributeRelationship dwd:design-time-name="6ff9e529-6c1f-496c-a06f-02780f3b78fa">
           <AttributeID>Ano</AttributeID>
           <Name>Ano</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="150ac43b-dd00-4e60-a038-736a303d5ba5">
+        <AttributeRelationship dwd:design-time-name="09eea7d8-ddfc-4690-8970-057a1e80023d">
           <AttributeID>Estrato Fabricacion</AttributeID>
           <Name>Estrato Fabricacion</Name>
         </AttributeRelationship>
@@ -129,14 +129,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="386113f7-dd5c-4013-8cd5-9ff9ad13e449">
+    <Attribute dwd:design-time-name="1b7bfcb1-9807-433c-a94f-706827bb4fbf">
       <ID>Pais Procedencia</ID>
       <Name>Pais Procedencia</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="254cf955-8ecb-4eef-b7e0-a1dab46916ee">
+        <KeyColumn dwd:design-time-name="9976d816-e179-4e91-8824-37663c3947c4">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2440b194-2519-441d-afb2-aab7c6ae6883">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="785a938e-a919-450c-8a33-305700383126">
             <TableID>dbo_DimVehiculo</TableID>
             <ColumnID>PaisProcedencia</ColumnID>
           </Source>
@@ -145,14 +145,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="1f8f5601-1ee9-457f-a41b-90870f4f166e">
+    <Attribute dwd:design-time-name="80a95eb6-7a1f-4975-b5d3-df8d8aa635d9">
       <ID>Tipo Vehiculo</ID>
       <Name>Tipo Vehiculo</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="38fafd71-208a-40b1-bed6-1e84837b0938">
+        <KeyColumn dwd:design-time-name="ae594807-3232-4e8d-a5b1-9b4b87d78df2">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="bdb8b649-b114-4b60-9a00-8abb832c3e87">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="571c55e9-b0fc-4228-af5f-c2e7e723960c">
             <TableID>dbo_DimVehiculo</TableID>
             <ColumnID>TipoVehiculo</ColumnID>
           </Source>
@@ -161,14 +161,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="8105c907-483a-4897-8d31-b5ddc5a2fdf7">
+    <Attribute dwd:design-time-name="401d79ab-2170-4e22-8c04-76ff37f57f28">
       <ID>Nombre Fabricante</ID>
       <Name>Nombre Fabricante</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ae3df9b4-63bd-4ead-a3cd-1160d5049020">
+        <KeyColumn dwd:design-time-name="66165ade-e51f-4f5c-811d-06abceb3dc4d">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="d42c8271-02ed-4558-9348-d5dea5092f93">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a8e05e0d-50af-4e87-8db8-a16e2e1158ec">
             <TableID>dbo_DimVehiculo</TableID>
             <ColumnID>NombreFabricante</ColumnID>
           </Source>
@@ -177,14 +177,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="4fe6bb6f-a998-44b3-b028-b4efe83c95a5">
+    <Attribute dwd:design-time-name="2f78c770-00ac-4a59-af72-82bbcc226de8">
       <ID>Abreviatura Pais</ID>
       <Name>Abreviatura Pais</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="85dd8a4f-e861-4714-bb44-831b99d43946">
+        <KeyColumn dwd:design-time-name="6892854a-c026-467e-b2f7-d25b3439ca5a">
           <DataType>WChar</DataType>
           <DataSize>5</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b8b8467a-f08b-460c-bee8-88dddb0c41ae">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8cd53492-cae7-4096-9cca-27717a8d6edc">
             <TableID>dbo_DimVehiculo</TableID>
             <ColumnID>AbreviaturaPais</ColumnID>
           </Source>
@@ -193,14 +193,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="c4512582-3253-4100-9898-8a7548b7bb7c">
+    <Attribute dwd:design-time-name="cc4528cf-68ee-4926-950c-28e68bb27811">
       <ID>Region Del Continente</ID>
       <Name>Region Del Continente</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="a68a532b-d596-4428-b382-faca8b5ddbe2">
+        <KeyColumn dwd:design-time-name="afcd7842-a92a-41b1-b0b2-9a01ac8046f3">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="37da729f-7010-4fe3-990d-961d4a276368">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="98daffe3-9acd-489e-8454-33c9fbff8c07">
             <TableID>dbo_DimVehiculo</TableID>
             <ColumnID>RegionDelContinente</ColumnID>
           </Source>
@@ -209,14 +209,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="5f0cb2a5-525a-4be3-af4b-4348be32ba26">
+    <Attribute dwd:design-time-name="4ab20858-381e-4df3-b5ba-8f473a29da08">
       <ID>Continente</ID>
       <Name>Continente</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="6d66d7fc-7435-4237-b6a6-d48e1064be05">
+        <KeyColumn dwd:design-time-name="6b342e14-55eb-43f6-92b0-2efc9d906f4e">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a5113c01-4216-4b7f-ab5e-af3befd12174">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3c01b00c-b2ae-4201-b9e6-73e658cf50ea">
             <TableID>dbo_DimVehiculo</TableID>
             <ColumnID>Continente</ColumnID>
           </Source>
@@ -225,13 +225,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="3c7ff1f1-7ebd-48c3-b583-a71691e71bb0">
+    <Attribute dwd:design-time-name="07896c59-2664-4e08-af50-5d0daea5ee5d">
       <ID>Ano</ID>
       <Name>Ano</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="623f68be-8db9-491c-8d98-febe9e81f9f1">
+        <KeyColumn dwd:design-time-name="5426b038-12ec-4bcc-ac7b-a87468035419">
           <DataType>Double</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="439a1f96-6b97-456d-8947-91b22eedd782">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8f8b9308-0877-4d45-b75c-2b3d087ee34d">
             <TableID>dbo_DimVehiculo</TableID>
             <ColumnID>Ano</ColumnID>
           </Source>
@@ -240,14 +240,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="a1f33fff-71bb-42b0-94d4-e30a37825f37">
+    <Attribute dwd:design-time-name="54e8ef13-6cc7-4032-9433-01dabebe1c9f">
       <ID>Estrato Fabricacion</ID>
       <Name>Estrato Fabricacion</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="195ec8f0-d518-4453-a994-dc065c3545d9">
+        <KeyColumn dwd:design-time-name="d52fedc6-3f5c-4446-8607-d10b73c71915">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="70b7e214-6e40-4285-8b7a-93157944291a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d9996484-4bfa-4a81-aa75-5fd3e0f45723">
             <TableID>dbo_DimVehiculo</TableID>
             <ColumnID>EstratoFabricacion</ColumnID>
           </Source>
@@ -258,31 +258,57 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="1a60afb9-c3d6-4cb1-836f-9be3f911aca0">
+    <Hierarchy dwd:design-time-name="0d0cd7ba-a427-4865-ab9f-ea6fb6828901">
       <ID>Hierarchy</ID>
       <Name>Hierarchy Vehiculo</Name>
       <Levels>
-        <Level dwd:design-time-name="067ea756-8237-45de-8601-c12a8b5b189b">
+        <Level dwd:design-time-name="8f5d7b0a-a6d8-4bfb-85b9-4560d0127fce">
           <ID>Continente</ID>
           <Name>Continente</Name>
           <SourceAttributeID>Continente</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="dab5c19e-9bff-4f80-ab5d-65728c2935e1">
+        <Level dwd:design-time-name="f1e048af-c01d-4775-a05f-0b65c0c96812">
           <ID>Region Del Continente</ID>
           <Name>Region Del Continente</Name>
           <SourceAttributeID>Region Del Continente</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="a103d326-de92-4a91-8e41-c6ddde6c16c0">
+        <Level dwd:design-time-name="51dcf523-8026-41d3-9b36-bd1d05fb4ab6">
           <ID>Pais Procedencia</ID>
           <Name>Pais Procedencia</Name>
           <SourceAttributeID>Pais Procedencia</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="0f7387b1-5903-45e8-80c2-cc48c3cd458c">
+        <Level dwd:design-time-name="c4b2d3da-8704-47e8-ac40-688f74ec0117">
           <ID>Nombre Fabricante</ID>
           <Name>Nombre Fabricante</Name>
           <SourceAttributeID>Nombre Fabricante</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="e132b6f1-6244-47a1-a7ab-53b245dc4475">
+        <Level dwd:design-time-name="da7ef3b5-d856-4871-bdc1-4d16d5a6dcdb">
+          <ID>ID Vehiculo</ID>
+          <Name>ID Vehiculo</Name>
+          <SourceAttributeID>ID Vehiculo</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="e9c887fc-6634-4d0b-a741-98ea23841817">
+      <ID>Hierarchy 1</ID>
+      <Name>Hierarchy Anno</Name>
+      <Levels>
+        <Level dwd:design-time-name="6116550a-8576-40b4-abe3-2b757f57c539">
+          <ID>Estrato Fabricacion</ID>
+          <Name>Estrato Fabricacion</Name>
+          <SourceAttributeID>Estrato Fabricacion</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="03b732c3-0f27-4c48-b4c1-a4d8900c52c7">
+          <ID>Tipo Vehiculo</ID>
+          <Name>Tipo Vehiculo</Name>
+          <SourceAttributeID>Tipo Vehiculo</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="9221695d-8d4c-4549-b7ed-b647ebce8ccd">
+          <ID>Nombre Fabricante</ID>
+          <Name>Nombre Fabricante</Name>
+          <SourceAttributeID>Nombre Fabricante</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="06536d8f-0977-4c75-aad5-e7996c2060e7">
           <ID>ID Vehiculo</ID>
           <Name>ID Vehiculo</Name>
           <SourceAttributeID>ID Vehiculo</SourceAttributeID>
